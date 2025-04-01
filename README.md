@@ -15,7 +15,7 @@
 
 <p>Abra o arquivo index.html no navegador</p>
 
-<h2>🎨 Vídeo Ilustrativa</h2>
+<h2>🎨 Vídeo Ilustrativo</h2>
 
 https://github.com/user-attachments/assets/1aa486e7-5267-442c-987b-0720e13f53e3
 
