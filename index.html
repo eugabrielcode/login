@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,32 +10,54 @@
 
 <body>
     <main class="container">
-        <form>
+        <!-- Login Form -->
+        <form id="login-form">
             <h1>Login</h1>
             <div class="input-box">
-                <input placeholder="Usuário" type="email">
+                <input id="email" placeholder="Usuário" type="email" required>
                 <i class="bx bxs-user"></i>
             </div>
             <div class="input-box">
-                <input placeholder="Senha" type="password">
+                <input id="senha" placeholder="Senha" type="password" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
             <div class="remember-forgot">
                 <label>
-                <input type="checkbox">
-                Lembrar senha
+                    <input type="checkbox"> Lembrar senha
                 </label>
                 <a href="#">Esqueci a senha</a>
             </div>
-            
             <button type="submit" class="login">Login</button>
-
             <div class="register-link">
-                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                <p>Não tem uma conta? <a href="#" id="show-register">Cadastre-se</a></p>
             </div>
         </form>
-    </main>
 
+        <!-- Cadastro Form -->
+        <form id="register-form" style="display: none;">
+            <h1>Cadastro</h1>
+            <div class="input-box">
+                <input id="nome" placeholder="Nome" type="text" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input id="email-register" placeholder="Email" type="email" required>
+                <i class="bx bxs-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input id="senha-register" placeholder="Senha" type="password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <button type="submit" class="login">Registrar</button>
+            <div class="register-link">
+                <p>Já tem uma conta? <a href="#" id="show-login">Faça login</a></p>
+            </div>
+        </form>
+
+        <p id="mensagem"></p>
+    </main>
+    
+    <script src="script.js"></script>
 </body>
 
 </html>

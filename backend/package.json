@@ -1,0 +1,25 @@
+{
+  "name": "paineldev",
+  "version": "1.0.0",
+  "description": "<h1>Painel de Login</h1>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugabrielcode/login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugabrielcode/login/issues"
+  },
+  "homepage": "https://github.com/eugabrielcode/login#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
